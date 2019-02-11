@@ -1,0 +1,98 @@
+body{
+    background: #e6f5ff;
+    font-family: 'KoHo', sans-serif;
+    color: #404a63;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    background: #9692af;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 4px 4px #615f8a;
+    border-radius: 10px;
+}
+
+.stars-options {
+    
+    margin: 5px;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight:400;
+    color:rgb(62, 85, 119);
+    display: block;
+    width: 100%; 
+}
+
+
+.new-bookmark{
+    padding: 20px;
+    border: 1px solid ;
+    list-style: none;
+    border-radius: 10px;
+    background-color: rgb(206, 237, 240);
+    margin: 10px;
+    box-shadow: 5px 5px rgb(185, 215, 218);
+    line-height: 1.8;
+    
+}
+
+.expand-button, .delete-button, .add-bookmark, .js-bookmark-submit, .clear-button{
+    
+    margin: 5px;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight:400;
+    color:rgb(62, 85, 119);
+    background-color:#acdbdf;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+    /* float: left; */
+    display: block;
+    width: 100%;  
+}
+
+
+.filter-rating{
+    border: 1px, solid, #2d0786;
+    
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 2em;
+    background-color: rgba(223, 104, 104, 0.596);
+    text-align: center;
+}
+
+.small-text{
+    font-size: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   
+   .expand-button, .delete-button, .add-bookmark, .js-bookmark-submit, .clear-button, {
+       text-align: center;
+       position:relative;
+       /* float: left; */
+       display: block;
+       width: 100%;
+    }
+}
